@@ -3,8 +3,8 @@ package ru.innopolis.stc12.exceptions;
 
 public class MathBox {
     /**
-     * @param a
-     * @param b
+     * @param a first parameter
+     * @param b second parameter
      * @return summary of params
      */
     public int summa(Integer a, Integer b) {
@@ -12,8 +12,8 @@ public class MathBox {
     }
 
     /**
-     * @param a
-     * @param b
+     * @param a first parameter
+     * @param b second parameter
      * @return difference between two params
      */
     public int diff(Integer a, Integer b) {
@@ -32,8 +32,8 @@ public class MathBox {
     }
 
     /**
-     * @param a
-     * @param b
+     * @param a first parameter
+     * @param b second parameter
      * @return dividing param a by b with catching Arithmetic Exception
      */
     public double dividerExceptionInside(Integer a, Integer b) {
@@ -46,8 +46,8 @@ public class MathBox {
     }
 
     /**
-     * @param a
-     * @param b
+     * @param a first parameter
+     * @param b second parameter
      * @return dividing param a by b and throw new Exception as custom exception
      * @throws Exception
      */

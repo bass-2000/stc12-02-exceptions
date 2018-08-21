@@ -1,9 +1,9 @@
 package ru.innopolis.stc12.exceptions;
 
 public class MyCustomException extends Exception{
+
     public MyCustomException(String s) {
-        super(s);
-        String tmp = "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤ()\n" +
+        super(s+ "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤ()\n" +
                 "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤaㅤㅤㅤㅤㅤㅤaㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ()\n" +
                 "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤaaaㅤㅤㅤㅤㅤaaaㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ()\n" +
                 "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤaaaaaaaaaaaaaaaaaㅤㅤㅤㅤㅤㅤㅤㅤㅤ()\n" +
@@ -25,8 +25,8 @@ public class MyCustomException extends Exception{
                 "ㅤㅤㅤㅤㅤㅤaaaaaaaaaaaaaaaaaaaaaaaaaaaㅤㅤㅤㅤㅤㅤㅤㅤ()\n" +
                 "ㅤㅤㅤㅤㅤㅤㅤaaaaaaaaaaaaaaaaaaaaaaaaaㅤㅤㅤㅤㅤㅤㅤㅤ()\n" +
                 "ㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ()\n" +
-                "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤ()\n";
-        System.out.println(tmp);
+                "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤ()\n");
+
 
 
     }
